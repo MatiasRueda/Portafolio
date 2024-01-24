@@ -12,7 +12,7 @@ export default function SImgEspecificaProyecto(props: { proyecto: Proyecto }): J
                                                           
       { props.proyecto.imagen?.length === 1 &&
             <DImgEspecificaProyecto llave={1}
-                                    src={`/proyectos/${props.proyecto.titulo}1.png`}
+                                    src={`/proyectos/${props.proyecto.titulo.toLowerCase()}1.png`}
                                     alt={props.proyecto.titulo}/>}
 
       { !!props.proyecto.imagen && props.proyecto.imagen.length != 1 && 
