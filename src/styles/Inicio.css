@@ -99,6 +99,7 @@ main {
 }
 
 .cont-bienvenida p {
+  text-align: center;
   font-size: 1.2em;
 }
 
@@ -119,8 +120,14 @@ main {
     height: 5rem;
 
   }
-}
 
+  .cont-bienvenida {
+    height: 20rem;
+  }
+  .cont-bienvenida h1 {
+    font-size: 2.3em;
+  }
+}
 
 @media (max-width: 700px) {
   header {
@@ -165,6 +172,7 @@ main {
   }
 
   .cont-bienvenida {
+    height: 20rem;
     width: 100%;
     text-align: center;
   }
