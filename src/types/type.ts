@@ -1,4 +1,4 @@
-import { FRAMEWORK, LENGUAJE, OTROS, TEST, TIPO } from "@/auxiliar/herramientas"
+import { FRAMEWORK, LENGUAJE, OTROS, TEST, TIPO } from "@/auxiliar/definiciones"
 
 export type Ruta = {
     nombre: string,
