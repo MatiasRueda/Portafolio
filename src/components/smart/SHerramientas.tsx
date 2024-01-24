@@ -8,7 +8,7 @@ export default function SHerramientas(props: { titulo: string, herramientas?: (L
                                <p>{props.titulo}</p>
                                <div className="cont-herramienta">
                                 {props.herramientas.map(herramienta => <img key={herramienta}
-                                                                            src={"/herramientas/"+ herramienta+".png"} 
+                                                                            src={"/herramientas/"+ herramienta.toLowerCase() +".png"} 
                                                                             alt={herramienta} 
                                                                             title={herramienta}
                                                                             height={40} 
