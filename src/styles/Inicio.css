@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  -webkit-user-drag: none;
+}
+
+body {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header, main {
+  margin: 0 auto !important;
+  width: 90% !important;
+}
+
+
+header {
+  height: 5rem;
+  border-top: 0.2rem solid white;
+  border-bottom: 0.2rem solid white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titulo {
+  height: 100%;
+  width: 15%;
+  border: 0.2rem solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.layout {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#nav {
+  height: 100%;
+  width: 100%;
+  border-right: 0.2rem solid white;
+  border-left: 0.2rem solid white;
+  font-size: 1.6em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+main {
+  color: white;
+  background-color: black;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inicio {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.inicio img {
+  height: 26rem;
+  width: 25rem;
+}
+
+.cont-bienvenida {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont-bienvenida h1 {
+  font-size: 4em;
+}
+
+.cont-bienvenida p {
+  font-size: 1.2em;
+}
+
+.cont-breve-descripcion {
+  text-align: center;
+}
+
+@media (max-width: 1280px) and (min-width: 701px){
+  .titulo {
+    width: 30%;
+  } 
+
+  header {
+    width: 100% !important;
+    height: 5rem;
+  }
+  .layout {
+    height: 5rem;
+
+  }
+}
+
+
+@media (max-width: 700px) {
+  header {
+    width: 100% !important;
+    border-top: none;
+    flex-wrap: wrap;
+    height: 9rem;
+  }
+
+  main {
+    width: 100% !important;
+    overflow-x: auto;
+    overflow-y: auto;
+  }
+  
+  .inicio img {
+    height: 7rem;
+    width: 8rem;
+  }
+  .layout {
+    height: 3rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #nav {
+    height: 3rem;
+    width: 100%;
+    border: 0.2rem solid white;
+    font-size: 1em;
+  }
+
+  .titulo {
+    height: 5rem;
+    width: 100%;
+    border: none;
+  }
+
+  .inicio {
+    flex-wrap: wrap;
+  }
+
+  .cont-bienvenida {
+    width: 100%;
+    text-align: center;
+  }
+
+  .cont-bienvenida h1 {
+    font-size: 2em;
+  }
+
+  .cont-bienvenida p {
+    font-size: 1em;
+  }
+}
