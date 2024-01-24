@@ -81,5 +81,16 @@ export const proyectos: Record<string, Proyecto> = {
     titulo: "Tareas",
     descripcion: "Proyecto personal creado para mostrar los conocimientos sobre Java y Spring Boot. El proyecto ofrece al usuario una lista de tareas, a las cuales se las puede agregar mas tareas, eliminarlas o actualizarlas.",
     github: "https://github.com/MatiasRueda/Tareas",
+  },
+
+  portafolio: {
+    lenguajes: [LENGUAJE.TYPESCRIPT],
+    framework: [FRAMEWORK.NEXTJS],
+    imagen:  Array.from({length: 2}, (_, i) => i + 1),
+    otros: [OTROS.CSS],
+    titulo: "Portafolio",
+    descripcion: "Es este mismo proyecto",
+    github: "https://github.com/MatiasRueda/Portafolio",
+    demo: "https://portafolio-one-wine.vercel.app"
   }
 }

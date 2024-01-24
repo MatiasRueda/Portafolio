@@ -37,7 +37,8 @@ export enum TEST {
 
 export enum FRAMEWORK {
   SPRING = "Spring",
-  REACT = "React"
+  REACT = "React",
+  NEXTJS = "NextJs"
 }
 
 export enum OTROS {
