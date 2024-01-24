@@ -106,8 +106,8 @@
 }
 
 #img-proyecto {
-  max-height: 35rem;
-  max-width: 54rem;
+  max-height: 35rem !important;
+  max-width: 54rem !important;
 }
 
 .imagen-prev:hover , .imagen-next:hover {
@@ -144,8 +144,8 @@
   }
 
   #img-proyecto {
-    max-height: 20rem;
-    max-width: 27rem;
+    max-height: 20rem !important;
+    max-width: 27rem !important;
   }
 
   .cont-proyecto-informacion {
