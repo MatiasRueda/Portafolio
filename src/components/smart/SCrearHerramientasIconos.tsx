@@ -7,9 +7,9 @@ export default function SCrearHerramientasIconos(): JSX.Element {
   return (
     <Fragment>
       {tiposHerramientas
-        .map((e, indice) => <SHerramientasIconos key={indice}
-                                                titulo={tituloHerramientas[indice]}
-                                                elementos={Object.values(e)} />)}
+        .map((e, indice) => <SHerramientasIconos key={indice}                                  
+                                                 titulo={tituloHerramientas[indice]}
+                                                 elementos={Object.values(e)} />)}
     </Fragment>
   )
 }

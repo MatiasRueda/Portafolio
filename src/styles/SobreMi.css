@@ -113,6 +113,10 @@
   text-align: center;
 }
 
+#Lenguajes {
+  width: 80%;
+}
+
 @media (width: 1280px){
   .descripcion {
     margin-top: 20rem;
@@ -132,6 +136,14 @@
   .cont-informacion-it {
     width: 90%;
     padding-bottom: 5rem;
+  }
+}
+
+@media (width: 820px) {
+  .cont-informacion-it {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
   }
 }
 
