@@ -29,7 +29,7 @@ function ASlider(props:{ elementos?: JSX.Element[], nombre: string }): JSX.Eleme
             opacity: 0,
             transition: {
               type: 'easyOut',
-              duration: 0.3 
+              duration: 0.2 
             }
           };
         }
@@ -50,7 +50,7 @@ function ASlider(props:{ elementos?: JSX.Element[], nombre: string }): JSX.Eleme
                     initial="enter"
                     animate="center"
                     exit="exit"
-                    transition={{ type: 'easyOut' , delay: 0.3 }}>
+                    transition={{ type: 'easyOut' }}>
                       {props.elementos != undefined && props.elementos[imagenIndex]}
               </motion.div>
             </AnimatePresence>

@@ -64,14 +64,11 @@
   justify-content: center;
 }
 
-
 .cont-redes {
   width: 30%;
   display: flex;
   justify-content: space-around;
 }
-
-
 
 .cont-lenguajes-frameworks-tests-otros {
   height: 100%;
