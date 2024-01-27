@@ -83,6 +83,61 @@ export const proyectos: Record<string, Proyecto> = {
     github: "https://github.com/MatiasRueda/Tareas",
   },
 
+  pila: {
+    lenguajes: [LENGUAJE.C],
+    titulo: "Pila",
+    descripcion: "Trabajo practico de algoritmo y programación 2 de la Facultad de Ingeniería Universidad de Buenos Aires. Esta pila es un tipo de dato abstracto que te permite almacenar" + 
+    " elementos de cualquier tipo, con la caracteristica de ser una estructura LIFO ( Last in, First Out ), osea que todo elemento que se agregue ira al tope de la pila y siempre que se quiera sacar se sacara el tope de la pila.",
+    github: "https://github.com/MatiasRueda/TDA-Pila"
+  },
+
+  cola: {
+    lenguajes: [LENGUAJE.C],
+    titulo: "Cola",
+    descripcion: "Trabajo practico de algoritmo y programación 2 de la Facultad de Ingeniería Universidad de Buenos Aires. Esta cola es un tipo de dato abstracto que te permite almacenar" + 
+    " elementos de cualquier tipo, con la característica de ser una estructura FIFO ( First in, First Out ). Osea que el primer elemento en agregarse, sera el primero en sacarse.",
+    github: "https://github.com/MatiasRueda/TDA-Cola"
+  },
+
+  lista: {
+    lenguajes: [LENGUAJE.C],
+    titulo: "Lista",
+    descripcion: "Trabajo practico de algoritmo y programación 2 de la Facultad de Ingeniería Universidad de Buenos Aires. Este Hash es un tipo de dato abstracto que te permite almacenar" + 
+    " elementos de cualquier tipo. Esta asocia llaves o claves con valores y su principal operacion que realiza de manera eficiente es la busqueda.",
+    github: "https://github.com/MatiasRueda/TDA-Lista"
+  },
+
+  hash: {
+    lenguajes: [LENGUAJE.C],
+    titulo: "Tabla hash",
+    descripcion: "Trabajo practico de algoritmo y programación 2 de la Facultad de Ingeniería Universidad de Buenos Aires. Este ABB es un tipo de dato abstracto que te permite almacenar" + 
+    " elementos de cualquier tipo. Es un árbol binario tal que el valor de cada nodo es mayor que los valores de su subárbol izquierdo y es menor que los valores de su subárbol derecho y, además, ambos subárboles son árboles binarios de búsqueda.",
+    github: "https://github.com/MatiasRueda/TDA-Hash"
+  },
+
+  abb: {
+    lenguajes: [LENGUAJE.C],
+    titulo: "ABB",
+    descripcion: "Trabajo practico de algoritmo y programación 2 de la Facultad de Ingeniería Universidad de Buenos Aires. Este ABB es un tipo de dato abstracto que te permite almacenar" + 
+    " elementos de cualquier tipo. Es un árbol binario tal que el valor de cada nodo es mayor que los valores de su subárbol izquierdo y es menor que los valores de su subárbol derecho y, además, ambos subárboles son árboles binarios de búsqueda.",
+    github: "https://github.com/MatiasRueda/TDA-ABB"
+  },
+
+  heap: {
+    lenguajes: [LENGUAJE.C],
+    titulo: "Heap",
+    descripcion: "Trabajo practico de algoritmo y programación 2 de la Facultad de Ingeniería Universidad de Buenos Aires. Esta lista es un tipo de dato abstracto que te permite almacenar" + 
+    " elementos de cualquier tipo. En particular heap esta siendo utilizado para implementar una cola de prioridad y de esta forma tener los elementos ordenados",
+    github: "https://github.com/MatiasRueda/TDA-Heap"
+  },
+
+  matriz: {
+    lenguajes: [LENGUAJE.ASSEMBLY],
+    titulo: "Matriz",
+    descripcion: "Trabajo practico de la materia Organizacion del computador de la Facultad de Ingeniería Universidad de Buenos Aires La idea detrás de este proyecto es poner en practica los distintos conocimientos sobre Assembler Intel x86. El programa le servirá como una mini calculadora para realizar operaciones con matrices cuadradas. ( sumar, restar, entre otras cosas ).",
+    github: "https://github.com/MatiasRueda/Matriz"
+  },
+
   portafolio: {
     lenguajes: [LENGUAJE.TYPESCRIPT],
     framework: [FRAMEWORK.NEXTJS],

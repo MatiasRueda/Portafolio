@@ -29,7 +29,7 @@ function ASlider(props:{ elementos?: JSX.Element[], nombre: string }): JSX.Eleme
             opacity: 0,
             transition: {
               type: 'easyOut',
-              duration: 0.1 
+              duration: 0.3 
             }
           };
         }
@@ -41,7 +41,7 @@ function ASlider(props:{ elementos?: JSX.Element[], nombre: string }): JSX.Eleme
                  onClick={() => paginate(-1)}>
                   {"<"}
             </button>
-            <AnimatePresence initial={false} custom={direction}>
+            <AnimatePresence mode="wait" initial={false} custom={direction}>
               <motion.div
                     className={`cont-marco-${props.nombre}`}
                     key={indice}

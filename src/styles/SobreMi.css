@@ -58,7 +58,20 @@
 .cont-informacion {
   width: 100%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
+
+.cont-redes {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
 
 .cont-lenguajes-frameworks-tests-otros {
   height: 100%;

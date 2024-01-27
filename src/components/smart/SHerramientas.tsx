@@ -6,7 +6,7 @@ export default function SHerramientas(props: { titulo: string, herramientas?: (L
   return (
     <Fragment>
       {props.herramientas && <div className="cont-herramientas">
-                               <p>{props.titulo}</p>
+                               <h3>{props.titulo}</h3>
                                <div className="cont-herramienta">
                                 {props.herramientas.map(herramienta => <Image key={herramienta}
                                                                             src={"/herramientas/"+ herramienta.toLowerCase() +".png"} 

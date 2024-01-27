@@ -11,7 +11,7 @@ export default function SobreMi(): JSX.Element {
   return (
       <section className="descripcion">
         <div className="cont-presentacion">
-          <h2>!Buenas</h2>
+          <h2>¡Buenas!</h2>
           <p>En la actualidad me encuentro estudiando en la Facultad de Ingeniería de la Universidad de Buenos Aires (FIUBA), Licenciatura en Analisis de Sistemas (tercer año)<br/>
              En mis tiempos libres realizo distintos proyectos personales y me dedico a aprender nuevas tecnologias.<br/>
              En cuanto mi situacion laboral, estoy desocupado y con muchas ganas de entrar mi oportunidad para ingresar al mundo laboral.</p>
