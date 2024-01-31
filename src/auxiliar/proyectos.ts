@@ -2,6 +2,16 @@ import { Proyecto } from "@/types/type";
 import { FRAMEWORK, LENGUAJE, OTROS, TEST } from "./definiciones";
 
 export const proyectos: Record<string, Proyecto> = {
+  ppt: {
+    lenguajes: [LENGUAJE.TYPESCRIPT],
+    framework: [FRAMEWORK.REACT],
+    otros: [OTROS.HTML, OTROS.CSS],
+    titulo: "Piedra-Papel-Tijera",
+    imagen: Array.from({length: 2}, (_, i) => i + 1),
+    descripcion: "Proyecto realizado para demostrar los conocimientos en Front-end. La idea del proyecto viene de un desafío de la pagina (https://www.frontendmentor.io). Este proyecto ofrece al usuario un mini juego de Piedra-Papel-Tijera (Mejorado) eso quiere decir que agregamos mas elementos al juego como Spock y Lizard ( para mas informacion leer las reglas )",
+    github: "https://github.com/MatiasRueda/Piedra-papel-tijera"
+  },
+
   dolar: {
     lenguajes: [LENGUAJE.TYPESCRIPT],
     framework: [FRAMEWORK.REACT],
