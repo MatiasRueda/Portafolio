@@ -39,6 +39,7 @@ export enum FRAMEWORK {
   SPRING = "Spring",
   REACT = "React",
   NEXTJS = "NextJs",
+  EXPRESS = "Express",
   SERVERLESS = "Serverless",
 }
 
@@ -62,7 +63,7 @@ export enum DEV {
   GITHUB = "Github",
 }
 
-export const tiposHerramientas = [OTROS, FRAMEWORK, TEST, DEV, LENGUAJE];
+export const tiposHerramientas = [FRAMEWORK, TEST, OTROS, DEV, LENGUAJE];
 
 export const navs: Ruta[] = [
   {

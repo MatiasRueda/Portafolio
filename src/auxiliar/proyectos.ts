@@ -72,14 +72,27 @@ export const proyectos: Record<string, Proyecto> = {
 
   smemotest: {
     lenguajes: [LENGUAJE.TYPESCRIPT],
-    framework: [FRAMEWORK.REACT],
-    otros: [OTROS.HTML, OTROS.CSS, OTROS.MYSQL],
+    framework: [FRAMEWORK.EXPRESS],
+    otros: [OTROS.MYSQL],
     tests: [TEST.JEST],
     titulo: "Server Memotest",
     descripcion:
-      "Proyecto personal para aplicar mis conocimientos en Typescript React. La pagina ofrece un juego completo de memotest y también incluye competencias entre otros jugadores.",
-    github: "https://github.com/MatiasRueda/Memotest_cliente",
+      "Proyecto personal para aplicar mis conocimientos en Express y MySQL. " +
+      "La API le otorga a los usuarios las principales acciones para que estos puedan jugar al memotest. Como por ejemplo la posibilidad de agregar a una base de datos a un usuario nuevo, validar si un usuario a sido registrado o no para así poder ingresar, actualizar los puntajes y la posibilidad de obtener los usuarios que mas puntaje tienen.",
+    github: "https://github.com/MatiasRueda/Memotest_servidor",
     demo: "https://gleaming-pudding-4d279d.netlify.app",
+  },
+
+  scompras: {
+    lenguajes: [LENGUAJE.TYPESCRIPT],
+    framework: [FRAMEWORK.EXPRESS],
+    otros: [OTROS.MYSQL],
+    tests: [TEST.JEST],
+    titulo: "Server Compras",
+    descripcion:
+      "Proyecto personal para aplicar mis conocimientos en Express, MySQL y Jest. La API ofrece a los usuarios la posibilidad de ingresar y registrarse para poder realizar las compras, actualizar los datos del cliente ( nombre ,contraseña , email ), realizar compras y obtener novedades, suscripciones y canjes",
+    github: "https://github.com/MatiasRueda/Mi_compras_servidor",
+    demo: "https://sprightly-bienenstitch-598a97.netlify.app",
   },
 
   microservicio: {

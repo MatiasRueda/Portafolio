@@ -4,9 +4,9 @@ import SHerramientasIconos from "./SHerramientasIconos";
 
 export default function SCrearHerramientasIconos(): JSX.Element {
   const tituloHerramientas: string[] = [
-    "Otros",
     "Frameworks",
-    "Tests",
+    "Test",
+    "Otros",
     "Dev",
     "Lenguajes",
   ];
