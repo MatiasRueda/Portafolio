@@ -80,7 +80,7 @@ export const proyectos: Record<string, Proyecto> = {
       "Proyecto personal para aplicar mis conocimientos en Express y MySQL. " +
       "La API le otorga a los usuarios las principales acciones para que estos puedan jugar al memotest. Como por ejemplo la posibilidad de agregar a una base de datos a un usuario nuevo, validar si un usuario a sido registrado o no para así poder ingresar, actualizar los puntajes y la posibilidad de obtener los usuarios que mas puntaje tienen.",
     github: "https://github.com/MatiasRueda/Memotest_servidor",
-    demo: "https://gleaming-pudding-4d279d.netlify.app",
+    demo: "https://sage-sawine-2aa5d8.netlify.app",
   },
 
   scompras: {
